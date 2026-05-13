@@ -16,18 +16,19 @@ jobs:
         uses: astral-sh/setup-uv@v3
         with:
           version: "latest"
+          enable-cache: true
 
       - name: Set up Python
         run: uv python install 3.12
 
-      - name: Install project + dev deps
-        run: uv pip install --system -e ".[dev]"
+      - name: Sync deps (creates .venv + installs project + dev extras)
+        run: uv sync --extra dev
 
       - name: ruff check
-        run: ruff check src tests
+        run: uv run ruff check src tests
 
       - name: ruff format --check
-        run: ruff format --check src tests
+        run: uv run ruff format --check src tests
 
   test:
     name: pytest (Python ${{ matrix.python-version }})
@@ -44,15 +45,16 @@ jobs:
         uses: astral-sh/setup-uv@v3
         with:
           version: "latest"
+          enable-cache: true
 
       - name: Set up Python
         run: uv python install ${{ matrix.python-version }}
 
-      - name: Install project + dev deps
-        run: uv pip install --system -e ".[dev]"
+      - name: Sync deps
+        run: uv sync --extra dev --python ${{ matrix.python-version }}
 
       - name: pytest with coverage
-        run: pytest --cov=fmg_api_client --cov-report=term-missing --cov-report=xml
+        run: uv run pytest --cov=fmg_api_client --cov-report=term-missing --cov-report=xml
 
       - name: Upload coverage artifact
         if: matrix.python-version == '3.12'
