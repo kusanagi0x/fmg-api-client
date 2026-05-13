@@ -1,0 +1,29 @@
+{
+  "url": "/sys/status",
+  "response": {
+    "Admin Domain Configuration": "Enabled",
+    "BIOS version": "04000002",
+    "Branch Point": "3653",
+    "Build": "8005",
+    "Current Time": "Tue May 05 12:00:00 UTC 2026",
+    "Daylight Time Saving": "Yes",
+    "FIPS Mode": "Disabled",
+    "HA Mode": "Stand Alone",
+    "Hostname": "fmg-lab-redacted",
+    "License Status": "Valid",
+    "Major": 7,
+    "Max Number of Admin Domains": 505,
+    "Max Number of Device Groups": 10000,
+    "Minor": 6,
+    "Offline Mode": "Disabled",
+    "Patch": 5,
+    "Platform Full Name": "FortiManager-VM64-KVM",
+    "Platform Type": "FMG-VM64-KVM",
+    "Release Version Information": " (GA)",
+    "Serial Number": "FMGVMSXX00000000",
+    "TZ": "UTC",
+    "Time Zone": "(GMT) UTC",
+    "Version": "v7.6.5-build8005 260424 (GA)",
+    "x86-64 Applications": "Yes"
+  }
+}

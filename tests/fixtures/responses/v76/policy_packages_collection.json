@@ -1,0 +1,21 @@
+{
+  "url": "/pm/pkg/adom/lab",
+  "response": [
+    {
+      "name": "default",
+      "obj ver": 1,
+      "oid": 5970,
+      "package settings": {
+        "central-nat": "disable",
+        "consolidated-firewall-mode": "disable",
+        "fwpolicy-implicit-log": "disable",
+        "fwpolicy6-implicit-log": "disable",
+        "hitc-taskid": 0,
+        "hitc-timestamp": 0,
+        "ngfw-mode": "profile-based",
+        "policy-offload-level": "disable"
+      },
+      "type": "pkg"
+    }
+  ]
+}

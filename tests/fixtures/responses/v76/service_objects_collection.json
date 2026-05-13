@@ -1,0 +1,2465 @@
+{
+  "url": "/pm/config/adom/lab/obj/firewall/service/custom",
+  "response": [
+    {
+      "oid": 3992,
+      "name": "AFS3",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "7000-7009"
+      ],
+      "udp-portrange": [
+        "7000-7009"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "File Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af08376-487f-51f1-d090-a46e49dcfe25"
+    },
+    {
+      "oid": 3920,
+      "name": "AH",
+      "protocol": "IP",
+      "protocol-number": 51,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "Tunneling"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeab414-487f-51f1-1dc5-e3c99a90465a"
+    },
+    {
+      "oid": 3913,
+      "name": "ALL",
+      "protocol": "IP",
+      "protocol-number": 0,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "General"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aea107c-487f-51f1-2432-cec8f4576871"
+    },
+    {
+      "oid": 3916,
+      "name": "ALL_ICMP",
+      "protocol": "ICMP",
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "General"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aea61c6-487f-51f1-dc4d-4f832b8ea97b",
+      "unset attrs": [
+        "icmptype"
+      ]
+    },
+    {
+      "oid": 3917,
+      "name": "ALL_ICMP6",
+      "protocol": "ICMP6",
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "General"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aea77ec-487f-51f1-bec7-c2ffa56c724c",
+      "unset attrs": [
+        "icmptype"
+      ]
+    },
+    {
+      "oid": 3914,
+      "name": "ALL_TCP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1-65535"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "General"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aea3462-487f-51f1-6def-0add09b58cae"
+    },
+    {
+      "oid": 3915,
+      "name": "ALL_UDP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "1-65535"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "General"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aea4b1e-487f-51f1-8192-49be8ae818b9"
+    },
+    {
+      "oid": 3922,
+      "name": "AOL",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "5190-5194"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeadbf6-487f-51f1-93ad-e53a015c4cc6"
+    },
+    {
+      "oid": 3923,
+      "name": "BGP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "179"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeaef38-487f-51f1-cefb-18e48bb100bd"
+    },
+    {
+      "oid": 3991,
+      "name": "CVSPSERVER",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "2401"
+      ],
+      "udp-portrange": [
+        "2401"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af06f8a-487f-51f1-19d8-3845e2ba9517"
+    },
+    {
+      "oid": 3952,
+      "name": "DCE-RPC",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "135"
+      ],
+      "udp-portrange": [
+        "135"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aed4dd2-487f-51f1-5edf-f611e6179011"
+    },
+    {
+      "oid": 3924,
+      "name": "DHCP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "67-68"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeb0450-487f-51f1-855c-99b4e8d3e265"
+    },
+    {
+      "oid": 3985,
+      "name": "DHCP6",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "546",
+        "547"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeff406-487f-51f1-28e8-09b74def2539"
+    },
+    {
+      "oid": 3925,
+      "name": "DNS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "53"
+      ],
+      "udp-portrange": [
+        "53"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeb1878-487f-51f1-ca32-211e8ff761b2"
+    },
+    {
+      "oid": 3921,
+      "name": "ESP",
+      "protocol": "IP",
+      "protocol-number": 50,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "Tunneling"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeac88c-487f-51f1-90c0-8f29afc08863"
+    },
+    {
+      "oid": 3926,
+      "name": "FINGER",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "79"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeb2cbe-487f-51f1-d471-d25892442a18"
+    },
+    {
+      "oid": 3927,
+      "name": "FTP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "21"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "File Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeb4014-487f-51f1-6a77-813a0d47ba38"
+    },
+    {
+      "oid": 3928,
+      "name": "FTP_GET",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "21"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "File Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeb5504-487f-51f1-e8f6-33be89de66da"
+    },
+    {
+      "oid": 3929,
+      "name": "FTP_PUT",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "21"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "File Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeb69fe-487f-51f1-82ab-5c934e2d0f21"
+    },
+    {
+      "oid": 3930,
+      "name": "GOPHER",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "70"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeb7ed0-487f-51f1-16c2-5bda9fe2ffeb"
+    },
+    {
+      "oid": 3918,
+      "name": "GRE",
+      "protocol": "IP",
+      "protocol-number": 47,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "Tunneling"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aea8cb4-487f-51f1-2a53-31e2bb4ffb5f"
+    },
+    {
+      "oid": 3919,
+      "name": "GTP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "2123",
+        "2152",
+        "3386"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeaa082-487f-51f1-87c6-890ac66330bb"
+    },
+    {
+      "oid": 3931,
+      "name": "H323",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1720",
+        "1503"
+      ],
+      "udp-portrange": [
+        "1719"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeb924e-487f-51f1-283b-e1b7a264654a"
+    },
+    {
+      "oid": 3932,
+      "name": "HTTP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "80"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Web Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeba5cc-487f-51f1-71a6-aa01ea800076"
+    },
+    {
+      "oid": 3933,
+      "name": "HTTPS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "443"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Web Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aebbb70-487f-51f1-c8fd-5d2815c31d9b"
+    },
+    {
+      "oid": 3934,
+      "name": "IKE",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "500",
+        "4500"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Tunneling"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aebd0c4-487f-51f1-e73e-9f4bd84ddc90"
+    },
+    {
+      "oid": 3935,
+      "name": "IMAP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "143"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Email"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aebe82a-487f-51f1-b71d-b649ce3c4add"
+    },
+    {
+      "oid": 3936,
+      "name": "IMAPS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "993"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Email"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aebfd42-487f-51f1-0369-a6aa666ed8f3"
+    },
+    {
+      "oid": 3950,
+      "name": "INFO_ADDRESS",
+      "protocol": "ICMP",
+      "icmptype": 17,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aed2348-487f-51f1-1d33-4c45db4e72d2",
+      "unset attrs": [
+        "icmpcode"
+      ]
+    },
+    {
+      "oid": 3949,
+      "name": "INFO_REQUEST",
+      "protocol": "ICMP",
+      "icmptype": 15,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aed0de0-487f-51f1-6c6f-3211ca22a092",
+      "unset attrs": [
+        "icmpcode"
+      ]
+    },
+    {
+      "oid": 3938,
+      "name": "IRC",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "6660-6669"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aec26d2-487f-51f1-2702-90116bf22e74"
+    },
+    {
+      "oid": 3937,
+      "name": "Internet-Locator-Service",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "389"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aec1142-487f-51f1-5265-e53b08e39c68"
+    },
+    {
+      "oid": 3996,
+      "name": "KERBEROS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "88",
+        "464"
+      ],
+      "udp-portrange": [
+        "88",
+        "464"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Authentication"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af0d7ea-487f-51f1-3b98-7f23e7c76058"
+    },
+    {
+      "oid": 3939,
+      "name": "L2TP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1701"
+      ],
+      "udp-portrange": [
+        "1701"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Tunneling"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aec3b40-487f-51f1-7f9a-68aa2b0f0cec"
+    },
+    {
+      "oid": 3940,
+      "name": "LDAP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "389"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Authentication"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aec4fd6-487f-51f1-d971-a0242d0f6811"
+    },
+    {
+      "oid": 3997,
+      "name": "LDAP_UDP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "389"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Authentication"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af0edca-487f-51f1-8af4-5c5133b65eb4"
+    },
+    {
+      "oid": 3974,
+      "name": "MGCP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "2428"
+      ],
+      "udp-portrange": [
+        "2427",
+        "2727"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aef0ec4-487f-51f1-9916-f4ef4f3e0ba8"
+    },
+    {
+      "oid": 3995,
+      "name": "MMS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1755"
+      ],
+      "udp-portrange": [
+        "1024-5000"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af0c2be-487f-51f1-7314-8ed7f9c8f5bc"
+    },
+    {
+      "oid": 3981,
+      "name": "MS-SQL",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1433",
+        "1434"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aefa3de-487f-51f1-98d5-8c72f7552dee"
+    },
+    {
+      "oid": 3982,
+      "name": "MYSQL",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "3306"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aefb806-487f-51f1-f929-d0dcdd27f6ba"
+    },
+    {
+      "oid": 3942,
+      "name": "NFS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "111",
+        "2049"
+      ],
+      "udp-portrange": [
+        "111",
+        "2049"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "File Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aec7b00-487f-51f1-c60b-dea5b17d5411"
+    },
+    {
+      "oid": 3943,
+      "name": "NNTP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "119"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aec8ffa-487f-51f1-1e9a-c15c96548d8e"
+    },
+    {
+      "oid": 3999,
+      "name": "NONE",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "0"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af1176e-487f-51f1-2b1d-0fc9d36e3f24"
+    },
+    {
+      "oid": 3944,
+      "name": "NTP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "123"
+      ],
+      "udp-portrange": [
+        "123"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeca4ea-487f-51f1-832d-9745c04ded19"
+    },
+    {
+      "oid": 3941,
+      "name": "NetMeeting",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1720"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aec666a-487f-51f1-bc98-af33e843936a"
+    },
+    {
+      "oid": 3951,
+      "name": "ONC-RPC",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "111"
+      ],
+      "udp-portrange": [
+        "111"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aed37de-487f-51f1-b72f-aef2a3887af2"
+    },
+    {
+      "oid": 3945,
+      "name": "OSPF",
+      "protocol": "IP",
+      "protocol-number": 89,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aecbaac-487f-51f1-5a05-d7b239fda0b9"
+    },
+    {
+      "oid": 3946,
+      "name": "PC-Anywhere",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "5631"
+      ],
+      "udp-portrange": [
+        "5632"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeccfa6-487f-51f1-4fc4-4b05895ae930"
+    },
+    {
+      "oid": 3947,
+      "name": "PING",
+      "protocol": "ICMP",
+      "icmptype": 8,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aece374-487f-51f1-b63f-327387e03301",
+      "unset attrs": [
+        "icmpcode"
+      ]
+    },
+    {
+      "oid": 3980,
+      "name": "PING6",
+      "protocol": "ICMP6",
+      "icmptype": 128,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aef8bce-487f-51f1-3e0b-fffbd7995fed",
+      "unset attrs": [
+        "icmpcode"
+      ]
+    },
+    {
+      "oid": 3953,
+      "name": "POP3",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "110"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Email"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aed6222-487f-51f1-2766-b04a86af8f04"
+    },
+    {
+      "oid": 3954,
+      "name": "POP3S",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "995"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Email"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aed760e-487f-51f1-1bcb-0109cdf38726"
+    },
+    {
+      "oid": 3955,
+      "name": "PPTP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1723"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Tunneling"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aed8bda-487f-51f1-3df1-f252a676a5b4"
+    },
+    {
+      "oid": 3956,
+      "name": "QUAKE",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "26000",
+        "27000",
+        "27910",
+        "27960"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aed9fbc-487f-51f1-0520-5cd53f3f7d8d"
+    },
+    {
+      "oid": 3989,
+      "name": "RADIUS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "1812",
+        "1813"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Authentication"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af04776-487f-51f1-b112-9f078f064305"
+    },
+    {
+      "oid": 3990,
+      "name": "RADIUS-OLD",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "1645",
+        "1646"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af05bc6-487f-51f1-6d8d-1429e78c76f5"
+    },
+    {
+      "oid": 3957,
+      "name": "RAUDIO",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "7070"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aedb54c-487f-51f1-6ac0-5a7d5340cbf3"
+    },
+    {
+      "oid": 3983,
+      "name": "RDP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "3389"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aefcbd4-487f-51f1-bf22-482d2159c6e3"
+    },
+    {
+      "oid": 3958,
+      "name": "REXEC",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "512"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aedc942-487f-51f1-18b4-8e72181e284e"
+    },
+    {
+      "oid": 3959,
+      "name": "RIP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "520"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aedddb0-487f-51f1-7a7c-5c859425e8ad"
+    },
+    {
+      "oid": 3960,
+      "name": "RLOGIN",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "513:512-1023"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aedf160-487f-51f1-87c9-9897ed55cf39"
+    },
+    {
+      "oid": 3961,
+      "name": "RSH",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "514:512-1023"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aee04c0-487f-51f1-3edb-90ef7b8cc175"
+    },
+    {
+      "oid": 3994,
+      "name": "RTSP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "554",
+        "7070",
+        "8554"
+      ],
+      "udp-portrange": [
+        "554"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af0ac3e-487f-51f1-19c7-168a19269746"
+    },
+    {
+      "oid": 3965,
+      "name": "SAMBA",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "139"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "File Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aee55c4-487f-51f1-553e-cebc0cfea017"
+    },
+    {
+      "oid": 3962,
+      "name": "SCCP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "2000"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aee191a-487f-51f1-2733-c2153527bdf1"
+    },
+    {
+      "oid": 3963,
+      "name": "SIP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "5060"
+      ],
+      "udp-portrange": [
+        "5060"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aee2e28-487f-51f1-4be1-7fd95c80cf80"
+    },
+    {
+      "oid": 3964,
+      "name": "SIP-MSNmessenger",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1863"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "VoIP, Messaging & Other Applications"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aee4246-487f-51f1-812d-52f3593c2759"
+    },
+    {
+      "oid": 3998,
+      "name": "SMB",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "445"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "File Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af1027e-487f-51f1-845f-7b198782020a"
+    },
+    {
+      "oid": 3966,
+      "name": "SMTP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "25"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Email"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aee6a3c-487f-51f1-6ada-4ade97d1476e"
+    },
+    {
+      "oid": 3967,
+      "name": "SMTPS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "465"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Email"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aee7e0a-487f-51f1-1eac-e156e105c5a0"
+    },
+    {
+      "oid": 3968,
+      "name": "SNMP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "161-162"
+      ],
+      "udp-portrange": [
+        "161-162"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aee9340-487f-51f1-341d-285955c1da8c"
+    },
+    {
+      "oid": 3987,
+      "name": "SOCKS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1080"
+      ],
+      "udp-portrange": [
+        "1080"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Tunneling"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af01c1a-487f-51f1-5435-b81fb29a8cd5"
+    },
+    {
+      "oid": 3986,
+      "name": "SQUID",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "3128"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Tunneling"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af00860-487f-51f1-96ef-f3843c08f30c"
+    },
+    {
+      "oid": 3969,
+      "name": "SSH",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "22"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeea722-487f-51f1-39a3-70f63cddf19b"
+    },
+    {
+      "oid": 3970,
+      "name": "SYSLOG",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "514"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeebaa0-487f-51f1-0b87-6caed605b31f"
+    },
+    {
+      "oid": 3971,
+      "name": "TALK",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "517-518"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeecf0e-487f-51f1-e6ff-fc16c622db4c"
+    },
+    {
+      "oid": 3972,
+      "name": "TELNET",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "23"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeee3c2-487f-51f1-a3b5-6c262daa30fe"
+    },
+    {
+      "oid": 3973,
+      "name": "TFTP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "69"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "File Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aeef902-487f-51f1-949e-5d2e5830a830"
+    },
+    {
+      "oid": 3948,
+      "name": "TIMESTAMP",
+      "protocol": "ICMP",
+      "icmptype": 13,
+      "udp-portrange": [],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aecf846-487f-51f1-50c2-a5cae2a61243",
+      "unset attrs": [
+        "icmpcode"
+      ]
+    },
+    {
+      "oid": 3993,
+      "name": "TRACEROUTE",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [],
+      "udp-portrange": [
+        "33434-33535"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Network Services"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af097ee-487f-51f1-487a-e2b3ea7def02"
+    },
+    {
+      "oid": 3975,
+      "name": "UUCP",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "540"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aef23fa-487f-51f1-86fc-c2919c13dfde"
+    },
+    {
+      "oid": 3976,
+      "name": "VDOLIVE",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "7000-7010"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aef38f4-487f-51f1-5daf-161283f79b38"
+    },
+    {
+      "oid": 3984,
+      "name": "VNC",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "5900"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aefe010-487f-51f1-a219-bb46173d26c3"
+    },
+    {
+      "oid": 3977,
+      "name": "WAIS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "210"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aef4d62-487f-51f1-9f81-58f54dd10fd5"
+    },
+    {
+      "oid": 3978,
+      "name": "WINFRAME",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1494",
+        "2598"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aef6234-487f-51f1-4f31-353b7f224201"
+    },
+    {
+      "oid": 3988,
+      "name": "WINS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "1512"
+      ],
+      "udp-portrange": [
+        "1512"
+      ],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af03272-487f-51f1-fe46-e9a0999ff8f4"
+    },
+    {
+      "oid": 3979,
+      "name": "X-WINDOWS",
+      "protocol": "TCP/UDP/UDP-Lite/SCTP",
+      "tcp-portrange": [
+        "6000-6063"
+      ],
+      "udp-portrange": [],
+      "sctp-portrange": [],
+      "check-reset-range": "default",
+      "color": 0,
+      "tcp-halfclose-timer": 0,
+      "tcp-halfopen-timer": 0,
+      "tcp-timewait-timer": 0,
+      "udp-idle-timer": 0,
+      "session-ttl": "0",
+      "iprange": "0.0.0.0",
+      "category": [
+        "Remote Access"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "disable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5aef7724-487f-51f1-5bdc-dbefcfe22f25"
+    },
+    {
+      "oid": 4000,
+      "name": "webproxy",
+      "protocol": "ALL",
+      "tcp-portrange": [
+        "0-65535:0-65535"
+      ],
+      "color": 0,
+      "iprange": "0.0.0.0",
+      "category": [
+        "Web Proxy"
+      ],
+      "app-service-type": "disable",
+      "app-category": [],
+      "application": [],
+      "helper": "auto",
+      "proxy": "enable",
+      "fabric-object": "disable",
+      "tcp-rst-timer": 0,
+      "uuid": "5af12e02-487f-51f1-c8f0-4a0b3b5d795c"
+    }
+  ]
+}

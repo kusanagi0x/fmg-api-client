@@ -1,0 +1,343 @@
+{
+  "url": "/pm/config/adom/lab/obj/fmg/variable",
+  "response": [
+    {
+      "dynamic_mapping": null,
+      "oid": 6104,
+      "name": "INET1_gw",
+      "type": "normal",
+      "value": "198.51.100.254"
+    },
+    {
+      "dynamic_mapping": null,
+      "oid": 6102,
+      "name": "INET1_intf",
+      "type": "normal",
+      "value": "port1"
+    },
+    {
+      "dynamic_mapping": [
+        {
+          "_scope": [
+            {
+              "name": "HQ-DR",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6117,
+          "value": "198.51.100.2"
+        },
+        {
+          "_scope": [
+            {
+              "name": "HQ-MAIN",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6118,
+          "value": "198.51.100.1"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-01",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6119,
+          "value": "198.51.100.101"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-02",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6120,
+          "value": "198.51.100.102"
+        }
+      ],
+      "oid": 6103,
+      "name": "INET1_ip",
+      "type": "normal",
+      "value": ""
+    },
+    {
+      "dynamic_mapping": null,
+      "oid": 6107,
+      "name": "INET2_gw",
+      "type": "normal",
+      "value": "203.0.113.254"
+    },
+    {
+      "dynamic_mapping": null,
+      "oid": 6105,
+      "name": "INET2_intf",
+      "type": "normal",
+      "value": "port2"
+    },
+    {
+      "dynamic_mapping": [
+        {
+          "_scope": [
+            {
+              "name": "HQ-MAIN",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6121,
+          "value": "203.0.113.1"
+        },
+        {
+          "_scope": [
+            {
+              "name": "HQ-DR",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6122,
+          "value": "203.0.113.2"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-01",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6123,
+          "value": "203.0.113.101"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-02",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6124,
+          "value": "203.0.113.102"
+        }
+      ],
+      "oid": 6106,
+      "name": "INET2_ip",
+      "type": "normal",
+      "value": ""
+    },
+    {
+      "dynamic_mapping": null,
+      "oid": 6108,
+      "name": "LAN_intf",
+      "type": "normal",
+      "value": "port3"
+    },
+    {
+      "dynamic_mapping": [
+        {
+          "_scope": [
+            {
+              "name": "HQ-MAIN",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6125,
+          "value": "10.1.0.1"
+        },
+        {
+          "_scope": [
+            {
+              "name": "HQ-DR",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6126,
+          "value": "10.2.0.1"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-01",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6127,
+          "value": "10.101.0.1"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-02",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6128,
+          "value": "10.102.0.1"
+        }
+      ],
+      "oid": 6109,
+      "name": "LAN_ip",
+      "type": "normal",
+      "value": ""
+    },
+    {
+      "dynamic_mapping": null,
+      "oid": 6111,
+      "name": "bgp_asn",
+      "type": "normal",
+      "value": "65000"
+    },
+    {
+      "dynamic_mapping": [
+        {
+          "_scope": [
+            {
+              "name": "HQ-MAIN",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6137,
+          "value": "hub_primary"
+        },
+        {
+          "_scope": [
+            {
+              "name": "HQ-DR",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6138,
+          "value": "hub_secondary"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-01",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6139,
+          "value": "branch"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-02",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6140,
+          "value": "branch"
+        }
+      ],
+      "oid": 6113,
+      "name": "device_role",
+      "type": "normal",
+      "value": "branch"
+    },
+    {
+      "dynamic_mapping": [
+        {
+          "_scope": [
+            {
+              "name": "HQ-MAIN",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6133,
+          "value": "HQ-MAIN"
+        },
+        {
+          "_scope": [
+            {
+              "name": "HQ-DR",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6134,
+          "value": "HQ-DR"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-01",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6135,
+          "value": "Branch-01"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-02",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6136,
+          "value": "Branch-02"
+        }
+      ],
+      "oid": 6112,
+      "name": "hostname",
+      "type": "normal",
+      "value": ""
+    },
+    {
+      "dynamic_mapping": [
+        {
+          "_scope": [
+            {
+              "name": "HQ-MAIN",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6129,
+          "value": "172.16.0.1"
+        },
+        {
+          "_scope": [
+            {
+              "name": "HQ-DR",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6130,
+          "value": "172.16.0.2"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-01",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6131,
+          "value": "172.16.0.101"
+        },
+        {
+          "_scope": [
+            {
+              "name": "Branch-02",
+              "vdom": "root"
+            }
+          ],
+          "oid": 6132,
+          "value": "172.16.0.102"
+        }
+      ],
+      "oid": 6110,
+      "name": "loopback_ip",
+      "type": "normal",
+      "value": ""
+    },
+    {
+      "dynamic_mapping": null,
+      "oid": 5966,
+      "name": "vm_interface_number",
+      "type": "normal",
+      "description": "predefined variable for set fgtvm interface number",
+      "value": "1"
+    }
+  ]
+}

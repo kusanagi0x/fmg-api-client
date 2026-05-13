@@ -1,0 +1,44 @@
+{
+  "url": "/pm/config/adom/lab/obj/cli/template",
+  "response": [
+    {
+      "oid": 6101,
+      "name": "00-Management",
+      "script": "{#- 00-Management.j2 — base management config for every device.\n    Variables expected (FMG meta-vars / dynamic_mapping per-device):\n      hostname, INET1_intf, INET1_ip, INET1_gw,\n      INET2_intf, INET2_ip, INET2_gw,\n      LAN_intf, LAN_ip, loopback_ip\n    Network masks are hard-coded /24 to keep the starter small. Replace\n    or extend this template once the lab has more interfaces. -#}\nconfig system global\n    set hostname \"{{ hostname }}\"\n    set admin-https-redirect enable\n    set timezone 27\nend\n\nconfig system interface\n    edit \"{{ INET1_intf }}\"\n        set vdom \"root\"\n        set mode static\n        set ip \"{{ INET1_ip }} 255.255.255.0\"\n        set role wan\n        set description \"Underlay for overlay INET_1\"\n    next\n    edit \"{{ INET2_intf }}\"\n        set vdom \"root\"\n        set mode static\n        set ip \"{{ INET2_ip }} 255.255.255.0\"\n        set role wan\n        set description \"Underlay for overlay INET_2\"\n    next\n    edit \"{{ LAN_intf }}\"\n        set vdom \"root\"\n        set mode static\n        set ip \"{{ LAN_ip }} 255.255.255.0\"\n        set role lan\n        set description \"LAN\"\n    next\n    edit \"loopback0\"\n        set vdom \"root\"\n        set type loopback\n        set ip \"{{ loopback_ip }} 255.255.255.255\"\n        set description \"BGP loopback over the SD-WAN overlay\"\n    next\nend\n\nconfig router static\n    edit 1\n        set device \"{{ INET1_intf }}\"\n        set gateway {{ INET1_gw }}\n    next\n    edit 2\n        set device \"{{ INET2_intf }}\"\n        set gateway {{ INET2_gw }}\n    next\nend\n",
+      "variables": [],
+      "position": "post-vdom-copy"
+    },
+    {
+      "oid": 5967,
+      "name": "provision_interfaces_on_vm",
+      "description": "predefined script for FGT-VM",
+      "type": "jinja",
+      "script": "config system interface\n{%- for i in range(0, vm_interface_number|int) %}\n    edit port{{i+1}}\n        set vdom root\n        set type physical\n    next\n{%- endfor %}\nend",
+      "variables": [
+        "vm_interface_number"
+      ],
+      "provision": "enable",
+      "position": "post-vdom-copy"
+    },
+    {
+      "oid": 5969,
+      "name": "split_hardware_switch_ports_40_80_100",
+      "description": "predefined script for FGT 40F/80E/100E/100F",
+      "type": "cli",
+      "script": "config firewall policy\npurge\nend\nconfig system interface\nedit lan\nunset role\nnext\nend\nconfig firewall address\ndelete lan\nend\nconfig system dhcp server\ndelete 1\nend\nconfig system virtual-switch\ndelete lan\nend",
+      "variables": [],
+      "provision": "enable",
+      "position": "post-vdom-copy"
+    },
+    {
+      "oid": 5968,
+      "name": "split_hardware_switch_ports_60_90",
+      "description": "predefined script for FGT 60F/90E",
+      "type": "cli",
+      "script": "config firewall policy\npurge\nend\nconfig system interface\nedit internal\nunset role\nnext\nend\nconfig firewall address\ndelete internal\nend\nconfig system dhcp server\ndelete 1\nend\nconfig system virtual-switch\ndelete internal\nend",
+      "variables": [],
+      "provision": "enable",
+      "position": "post-vdom-copy"
+    }
+  ]
+}

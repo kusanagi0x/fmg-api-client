@@ -1,0 +1,32 @@
+{
+  "url": "/dvmdb/adom/lab/group",
+  "response": [
+    {
+      "oid": 61813,
+      "name": "All_FortiGate",
+      "type": "default",
+      "os_type": "fos",
+      "desc": "",
+      "id": "",
+      "cluster_type": "vwan"
+    },
+    {
+      "oid": 61899,
+      "name": "branches",
+      "type": "normal",
+      "os_type": "fos",
+      "desc": null,
+      "id": null,
+      "cluster_type": "unknown"
+    },
+    {
+      "oid": 61898,
+      "name": "hubs",
+      "type": "normal",
+      "os_type": "fos",
+      "desc": null,
+      "id": null,
+      "cluster_type": "unknown"
+    }
+  ]
+}

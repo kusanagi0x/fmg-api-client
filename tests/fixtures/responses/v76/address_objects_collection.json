@@ -1,0 +1,462 @@
+{
+  "url": "/pm/config/adom/lab/obj/firewall/address",
+  "response": [
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3826,
+      "tagging": null,
+      "name": "EMS_ALL_UNKNOWN_CLIENTS",
+      "type": "dynamic",
+      "sub-type": "ems-tag",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae3b72c-487f-51f1-05af-3a8bb86b7127",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "clean",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3827,
+      "tagging": null,
+      "name": "EMS_ALL_UNMANAGEABLE_CLIENTS",
+      "type": "dynamic",
+      "sub-type": "ems-tag",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae3cbea-487f-51f1-ed66-fc8456ec7311",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "clean",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3821,
+      "tagging": null,
+      "name": "FABRIC_DEVICE",
+      "subnet": [
+        "0.0.0.0",
+        "0.0.0.0"
+      ],
+      "type": "ipmask",
+      "associated-interface": [
+        "any"
+      ],
+      "comment": "IPv4 addresses of Fabric Devices.",
+      "color": 0,
+      "uuid": "5ae34daa-487f-51f1-3c63-00d932272532",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3828,
+      "tagging": null,
+      "name": "FCTEMS_ALL_FORTICLOUD_SERVERS",
+      "type": "dynamic",
+      "sub-type": "ems-tag",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae3df86-487f-51f1-9bfc-17ad75accabe",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "clean",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3820,
+      "tagging": null,
+      "name": "FIREWALL_AUTH_PORTAL_ADDRESS",
+      "subnet": [
+        "0.0.0.0",
+        "0.0.0.0"
+      ],
+      "type": "ipmask",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae33874-487f-51f1-0320-fc7e395c3f6c",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3823,
+      "tagging": null,
+      "name": "RFC1918-10",
+      "subnet": [
+        "10.0.0.0",
+        "255.0.0.0"
+      ],
+      "type": "ipmask",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae376cc-487f-51f1-d17f-522744375c3c",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3824,
+      "tagging": null,
+      "name": "RFC1918-172",
+      "subnet": [
+        "172.16.0.0",
+        "255.240.0.0"
+      ],
+      "type": "ipmask",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae38c3e-487f-51f1-fe59-580842287ea9",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3825,
+      "tagging": null,
+      "name": "RFC1918-192",
+      "subnet": [
+        "192.168.0.0",
+        "255.255.0.0"
+      ],
+      "type": "ipmask",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae3a2fa-487f-51f1-d19e-0a6dde0f96e9",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3818,
+      "tagging": null,
+      "name": "SSLVPN_TUNNEL_ADDR1",
+      "type": "iprange",
+      "start-ip": "10.212.134.200",
+      "end-ip": "10.212.134.210",
+      "color": 0,
+      "uuid": "5ae310a6-487f-51f1-d01d-a4d93e219589",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3819,
+      "tagging": null,
+      "name": "all",
+      "subnet": [
+        "0.0.0.0",
+        "0.0.0.0"
+      ],
+      "type": "ipmask",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae323d4-487f-51f1-f935-9166bf7413b1",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3815,
+      "tagging": null,
+      "name": "gmail.com",
+      "type": "fqdn",
+      "fqdn": "gmail.com",
+      "associated-interface": [
+        "any"
+      ],
+      "cache-ttl": 0,
+      "color": 0,
+      "uuid": "5ae2d56e-487f-51f1-aeea-d4b27b56fa8d",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3813,
+      "tagging": null,
+      "name": "login.microsoft.com",
+      "type": "fqdn",
+      "fqdn": "login.microsoft.com",
+      "associated-interface": [
+        "any"
+      ],
+      "cache-ttl": 0,
+      "color": 0,
+      "uuid": "5ae2ac6a-487f-51f1-1c31-1e7d0b8db351",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3812,
+      "tagging": null,
+      "name": "login.microsoftonline.com",
+      "type": "fqdn",
+      "fqdn": "login.microsoftonline.com",
+      "associated-interface": [
+        "any"
+      ],
+      "cache-ttl": 0,
+      "color": 0,
+      "uuid": "5ae297ca-487f-51f1-b57c-8ddb118f8ec6",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3814,
+      "tagging": null,
+      "name": "login.windows.net",
+      "type": "fqdn",
+      "fqdn": "login.windows.net",
+      "associated-interface": [
+        "any"
+      ],
+      "cache-ttl": 0,
+      "color": 0,
+      "uuid": "5ae2c074-487f-51f1-767d-1e6cc9d3630e",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3822,
+      "tagging": null,
+      "name": "metadata-server",
+      "subnet": [
+        "169.254.169.254",
+        "255.255.255.255"
+      ],
+      "type": "ipmask",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae361c8-487f-51f1-6803-7da7126ae5da",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3811,
+      "tagging": null,
+      "name": "none",
+      "subnet": [
+        "0.0.0.0",
+        "255.255.255.255"
+      ],
+      "type": "ipmask",
+      "associated-interface": [
+        "any"
+      ],
+      "color": 0,
+      "uuid": "5ae2716e-487f-51f1-a60b-fd977aa97ba7",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3817,
+      "tagging": null,
+      "name": "wildcard.dropbox.com",
+      "type": "fqdn",
+      "fqdn": "*.dropbox.com",
+      "associated-interface": [
+        "any"
+      ],
+      "cache-ttl": 0,
+      "color": 0,
+      "uuid": "5ae2fc88-487f-51f1-6233-5b140f0c1992",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    },
+    {
+      "dynamic_mapping": null,
+      "list": null,
+      "oid": 3816,
+      "tagging": null,
+      "name": "wildcard.google.com",
+      "type": "fqdn",
+      "fqdn": "*.google.com",
+      "associated-interface": [
+        "any"
+      ],
+      "cache-ttl": 0,
+      "color": 0,
+      "uuid": "5ae2e8ec-487f-51f1-fb97-e885912c1c72",
+      "allow-routing": "disable",
+      "clearpass-spt": "unknown",
+      "obj-type": "ip",
+      "node-ip-only": "disable",
+      "fabric-object": "disable",
+      "dirty": "dirty",
+      "route-tag": 0,
+      "sso-attribute-value": [],
+      "agent-id": [],
+      "passive-fqdn-learning": "enable"
+    }
+  ]
+}
