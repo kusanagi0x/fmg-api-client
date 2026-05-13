@@ -35,13 +35,12 @@ from pathlib import Path
 # Allow running from a checkout without installing the package.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from fmg_api_client import (  # noqa: E402
+from fmg_api_client import (
     FMG76Adapter,
     FMGClient,
     SessionManager,
     detect_version,
 )
-
 
 # (slug, url-template, description). ``{adom}`` substitutes at runtime.
 _ENDPOINTS: list[tuple[str, str, str]] = [
@@ -149,7 +148,7 @@ async def _capture(*, host: str, adom: str, out_dir: Path) -> None:
                     else f"({type(data).__name__})"
                 )
                 print(f"    OK -> {path.relative_to(out_dir.parent)} {preview}")
-            except Exception as exc:  # noqa: BLE001
+            except Exception as exc:
                 print(f"    FAIL -> {exc}")
             print()
 
@@ -166,7 +165,7 @@ async def _capture(*, host: str, adom: str, out_dir: Path) -> None:
                     encoding="utf-8",
                 )
                 print("    OK (unexpected on 7.6) — captured")
-            except Exception as exc:  # noqa: BLE001
+            except Exception as exc:
                 (
                     target / "dynamic_variable_collection_74_on_76_error.json"
                 ).write_text(
