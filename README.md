@@ -1,3 +1,5 @@
+> Part of the [FortiStream Suite](https://github.com/CarlosTejeiro/fortistream-suite).
+
 # fmg-api-client
 
 Async, version-aware JSON-RPC client for **FortiManager**. Built on
